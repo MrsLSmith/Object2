@@ -1,13 +1,17 @@
 var superheroes = [{
-  Name: "Incredible Hulk",
-  Color: "Green",
-  Superpower: "Strength"
+  Name: "Flash",
+  Color: "red",
+  Superpower: "Super-Speed"
 }, {
   Name: "Superman",
-  Color: "Blue",
-  Superpower: "Flying"
+  Color: "red, white and Blue",
+  Superpower: "Everything"
 }, {
-  Name: "Hawkeye",
-  Color: "Purple",
-  Superpower: "Archery"
+  Name: "Batman",
+  Color: "Batman",
+  Superpower: "Batman"
+}, {
+  Name: "Shazam",
+  Color: "red",
+  Superpower: "SHAZAM!"
 }];
