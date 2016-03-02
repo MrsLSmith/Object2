@@ -1,0 +1,33 @@
+body {
+  background-image: url(http://www.geeksandcom.com/wp-content/uploads/2015/09/dc-comics-logo-cinema.jpg);
+}
+
+p {
+  font-size: 1.25em;
+  color: white;
+}
+
+h1 {
+  color: #2233bb;
+  text-shadow: 2px 1px 2px white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin:0px 0px 0px 10px;
+}
+
+#TableCollumOne,
+#TableCollumTwo,
+#TableCollumThree {
+  float: left;
+  padding: 5px;
+  border: 3px double grey;
+  background-color: rgba(20, 20, 20, .8) 
+}
+#Table {
+  display: none;
+}
+h2 { margin: 1px;}
