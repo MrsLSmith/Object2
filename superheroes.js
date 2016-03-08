@@ -25,8 +25,15 @@ var superheroes = [{
   Superpower: "SHAZAM!"
 }];
 
-
-
+function list() {
+	var namelist = '';
+	var prop;
+	for(prop in superheroes[0]){
+		namelist += " " + prop;
+	
+		}
+	document.write(namelist);
+	}	
 
 /**********
 NAMES

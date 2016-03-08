@@ -1,4 +1,10 @@
 
+<button type="button" onclick="list()"> Headings</button>
+<div id="Headings"></div>
+</body>
+
+<ol class ="namelist"></ol>
+
 <h1 id ="buttonNames">Display Names</h1>
 <div id = "outputNames"> </div>
 
