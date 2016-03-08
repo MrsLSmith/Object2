@@ -1,3 +1,12 @@
+var message = '';
+var showOrHide = 0;
+var nameDisplay = document.getElementById('buttonNames');
+var countTable = 0;
+var HeroesTable1 = "";
+var HeroesTable2 = "";
+var HeroesTable3 = "";
+var Heroes = "";
+var HeroStuff = "";
 var superheroes = [{
   Name: "Flash",
   Color: "red",
@@ -18,13 +27,12 @@ var superheroes = [{
 
 
 
+
 /**********
 NAMES
 **********/
 
 /* VARS AND FINDS NAMES*/
-var message = '';
-var showOrHide = 0;
 
 /*message += "<h2>Names: </h2>"*/
   
@@ -33,7 +41,6 @@ for (var name in superheroes){
 }
 
 /*PRINTS THE LIST*/
-var nameDisplay = document.getElementById('buttonNames');
 
 nameDisplay.onclick = function () {
   showOrHide++;
@@ -46,5 +53,25 @@ nameDisplay.onclick = function () {
   }
   else {
     outputDiv.style.display = "none";
+=======
+for (var i = 0; i < superheroes.length; i += 1) {
+  Heroes = superheroes[i];
+  HeroesTable1 += "<p class='rows'>" + Heroes.Name + "</p>";
+  HeroesTable2 += "<p class='rows'>" + Heroes.Color + "</p>";
+  HeroesTable3 += "<p class='rows'>" + Heroes.Superpower + "</p>";
+  document.getElementById("TableCollumOne").innerHTML = HeroesTable1;
+  document.getElementById("TableCollumTwo").innerHTML = HeroesTable2;
+  document.getElementById("TableCollumThree").innerHTML = HeroesTable3;
+}
+
+var clickThing =
+  document.getElementById('HeroTable');
+clickThing.style.cursor = 'pointer';
+clickThing.onclick = function() {
+  countTable += 1;
+  if (countTable % 2 === 0) {
+    document.getElementById("Table").style.display = 'none';
+  } else {
+    document.getElementById("Table").style.display = 'block';
   }
 }
