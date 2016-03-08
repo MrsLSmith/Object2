@@ -1,6 +1,7 @@
+<link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 <h1 id="HeroTable">Hero Table</h1>
 <div id="Table">
-<p id="TableCollumOne"></p>
-<p id="TableCollumTwo"></p>
-<p id="TableCollumThree"></p>
+  <div class="collum"><h2>Hero Name</h2><p id="TableCollumOne"></p></div>
+  <div class="collum"><h2>Hero Color</h2><p id="TableCollumTwo"></p></div>
+  <div class="collum"><h2>Hero Power</h2><p id="TableCollumThree"></p></div>
 </div>
